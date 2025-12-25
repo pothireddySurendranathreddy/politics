@@ -1,0 +1,11 @@
+your-repo/
+│
+├── _config.yml
+├── index.md
+├── assets/
+│   └── css/
+│       └── custom.css
+│
+├── Trump Tariff Policy Impact on Petrochemicals by Dr. Pothireddy Surendranath Reddy.pdf
+├── Trump Policies and Global Business Impact by Dr. Pothireddy Surendranath Reddy.pdf
+├── ...
