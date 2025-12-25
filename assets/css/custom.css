@@ -1,0 +1,38 @@
+.page-content {
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+}
+
+h1, h2, h3 {
+  color: #1e3c72;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.article-card {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform .3s, box-shadow .3s;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.article-card a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2a5298;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+  gap: 10px;
+}
